@@ -114,12 +114,11 @@ export function AuthWrapper({ children }: { children: React.ReactNode }) {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-indigo-500/20 rounded-full blur-[100px] -z-10" />
         
         <div className="glass-panel w-full max-w-sm p-8 rounded-2xl shadow-2xl flex flex-col items-center relative z-10 transition-all border border-card-border">
-          <Image
-            src="/icon.png"
+          <img
+            src="/icon.png?v=3"
             alt="HitungUntung"
             width={96}
             height={96}
-            priority
             className="mb-6 rounded-2xl drop-shadow-[0_0_15px_rgba(255,215,0,0.3)] shadow-lg"
           />
           <h1 className="text-2xl font-bold bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent mb-2">Login Admin</h1>

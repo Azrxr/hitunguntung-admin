@@ -43,7 +43,7 @@ export function Navigation({ children }: { children: React.ReactNode }) {
       {/* Mobile Topbar */}
       <div className="md:hidden flex items-center justify-between p-4 glass-panel border-b border-card-border sticky top-0 z-40 bg-card-bg/80 backdrop-blur-xl">
         <div className="flex items-center gap-3">
-          <Image src="/icon.png" alt="Logo" width={32} height={32} className="rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.2)]" />
+          <img src="/icon.png?v=3" alt="Logo" width={32} height={32} className="rounded-lg shadow-[0_0_10px_rgba(255,215,0,0.2)]" />
           <span className="font-bold text-lg bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent">HitungUntung</span>
         </div>
         <button 
@@ -69,7 +69,7 @@ export function Navigation({ children }: { children: React.ReactNode }) {
         ${isMobileMenuOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
       `}>
         <div className="p-6 hidden md:flex items-center gap-4 border-b border-card-border/50">
-          <Image src="/icon.png" alt="Logo" width={40} height={40} className="rounded-xl shadow-[0_0_15px_rgba(255,215,0,0.3)]" />
+          <img src="/icon.png?v=3" alt="Logo" width={40} height={40} className="rounded-xl shadow-[0_0_15px_rgba(255,215,0,0.3)]" />
           <span className="font-extrabold text-xl tracking-tight bg-gradient-to-r from-gold-400 to-gold-600 bg-clip-text text-transparent">HitungUntung</span>
         </div>
 
